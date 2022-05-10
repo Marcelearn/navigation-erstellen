@@ -1,0 +1,81 @@
+
+/*ul { 
+    display: inline;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+nav > ul > li {
+    display: inline-block;
+    background: rgb(190, 190, 190);
+    border: 1px solid #000;
+    
+    
+} 
+ul li:hover {
+    cursor: pointer;
+    background: rgb(190, 190, 190);
+}
+ul li:hover ul {
+    display: block;
+}
+ul li ul {
+    position: absolute;
+    width:100px;
+    display: none;    
+}
+nav ul li ul li {
+    background: rgb(190, 190, 190);
+    display: block;
+    top: 0;
+    
+     
+}
+ul li ul li a {
+    display:block;
+}
+*/
+ul > li {
+    font-size: 2rem;
+    background-color: gray;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+ul, li a {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    width: max-content;
+    margin: 1rem; 
+    padding: 1rem;   
+}
+nav > ul > li {
+    display: inline-block;
+    
+}
+.produkteParent, .karriereParent, 
+.uberunsParent, .hardwareParent {
+    position: relative;
+    
+}
+
+
+.produkteParent:hover .produkteChild, 
+.hardwareParent:hover .hardwareChild, 
+.uberunsParent:hover .uberunsChild,
+.karriereParent:hover .karriereChild {
+    display: block;
+    top: 0px;
+    left: -20%;
+}
+.hardwareChild, .produkteChild, .uberunsChild, .karriereChild{
+   position: absolute;
+   display: none;
+   left: 0;
+   
+}
+.hardwareParent:hover .hardwareChild, .karriereParent:hover .karriereChild  {
+    left: 80%;
+    top: -35px;
+}
