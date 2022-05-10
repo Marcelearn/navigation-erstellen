@@ -5,9 +5,10 @@ body {
 }
 ul > li {
     font-size: 2rem;
-    background-color: #9080F2;
+    background-color: #b6acf1;
     border-radius: 5px;
     border: 1px solid #614BF2;
+   
     
 }
 ul, li a {
@@ -33,7 +34,7 @@ nav > ul > li {
 .uberunsParent:hover .uberunsChild,
 .karriereParent:hover .karriereChild {
     display: block;
-    top: 0px;
+    top: 6px;
     left: -20%;
 }
 .hardwareChild, .produkteChild, .uberunsChild, .karriereChild{
@@ -43,6 +44,6 @@ nav > ul > li {
    
 }
 .hardwareParent:hover .hardwareChild, .karriereParent:hover .karriereChild  {
-    left: 80%;
-    top: -35px;
+    left: 85%;
+    top: -33px;
 }
