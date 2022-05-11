@@ -1,13 +1,27 @@
 
-body {
+html, body {
     background-color: #D9D9D9;
-    color: #fff;
+    height: 100%;
+    padding: 0;
+}
+header {
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+a {
+    color: rgb(255, 255, 255);
+}
+main {
+    padding-top: 80px;
 }
 ul > li {
     font-size: 2rem;
-    background-color: #b6acf1;
+    background-color: #616161;
     border-radius: 5px;
-    border: 1px solid #614BF2;
+    border: 1px solid #ff0303;
+    
    
     
 }
@@ -46,4 +60,16 @@ nav > ul > li {
 .hardwareParent:hover .hardwareChild, .karriereParent:hover .karriereChild  {
     left: 85%;
     top: -33px;
+}
+p {
+    font-size: x-large;
+}
+footer {
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #D9D9D9;
 }
